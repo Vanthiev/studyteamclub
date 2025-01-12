@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="km-KH" dir="ltr">
+
+<!-- Mirrored from www.khode.academy/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2018 09:18:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head prefix="og: http://ogp.me/ns#">	
+    <title>Khode Academy</title>
+    <meta charset="utf-8">
+	<meta name="description" content="Khode Academy គឺ​ជា​កម្មវិធី​សិក្សា​កូដ​កុំព្យូទ័រ ឥត​គិត​ថ្លៃ ជា​ភាសាខ្មែរ លើ​ប្រព័ន្ធ​អ៊ីនធើណិត ។">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<!-- OG -->
+	<meta property="og:title" content="Khode Academy">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="index.html">
+    <meta property="og:image" content="image.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="1200">
+	<meta property="og:description" content="Khode Academy គឺ​ជា​កម្មវិធី​សិក្សា​កូដ​កុំព្យូទ័រ ឥត​គិត​ថ្លៃ ជា​ភាសាខ្មែរ លើ​ប្រព័ន្ធ​អ៊ីនធើណិត ។">
+	<meta property="og:site_name" content="KHODE ACADEMY">
+	<meta property="og:locale" content="km-KH">
+	<meta property="fb:pages" content="990547844363840" >
+	<!--Twitter-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="KhodeAcademy">
+	<meta name="twitter:title" content="Khode Academy">
+	<meta name="twitter:description" content="Khode Academy គឺ​ជា​កម្មវិធី​សិក្សា​កូដ​កុំព្យូទ័រ ឥត​គិត​ថ្លៃ ជា​ភាសាខ្មែរ លើ​ប្រព័ន្ធ​អ៊ីនធើណិត ។">
+	<meta name="twitter:image" content="image.png">
+	<meta name="twitter:url" content="index.html">
+	<link rel="me" href="https://twitter.com/KhodeAcademy">
+    <!--apple-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Khode Academy">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-startup-image" href="favicon-192x192.png">
+    <!--icon-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon-192x192.png" sizes="192x192">
+	<link rel="mask-icon" href="favicon-mask.svg" color="#737373">
+    <link rel="manifest" href="manifest.json">
+	<meta name="application-name" content="Khode Academy">
+    <meta name="theme-color" content="#737373">
+	<!--else-->
+	<meta name="keywords" content="free, nonprofit, organization, ឥតគិតថ្លៃ, html, css, js, javascript, php, mysql, sql, webcode, code, khode, កូដ, online class, khmer, ខ្មែរ, គេហទំព័រ, មេរៀន, ទំព័រ, cambodia, cambodian">
+	<link rel="author" href="humans.txt">
+	<link rel="publisher" href="https://plus.google.com/+KhodeAcademy"> 
+    <link rel="help" href="about/help.html">
+    
+    <link href="https://fonts.googleapis.com/css?family=Hanuman|Open+Sans&amp;subset=khmer" rel="stylesheet">
+    <style>
+        body { 
+            margin: 0; 
+            overflow-x: hidden; 
+            font-family: 'open sans', hanuman, sans-serif;
+        }
+        .page { width: 100vw; height: 100vh; position: relative; }
+        #code {
+            flex-wrap: wrap;
+            display: flex;
+            width: 100%;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        #code > a { 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            width: 50%; 
+            height: 33vh;
+            margin: 0;
+            box-sizing: border-box;
+            padding: .5em;
+            cursor: pointer;
+            color: black;
+            text-decoration: none;
+        }
+        #code > a:hover {
+            background: black !important;
+            color: white;
+        }
+        #code h3 {
+            font-size: 1.5em;
+            text-decoration: underline;
+            margin: 0 0 .5em 0;
+        }
+        h2 {
+            text-align: center;
+            text-decoration: underline;
+            font-size: 2em;
+            margin: 0;
+            padding: 1em;
+        }
+        p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        #about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -60%);
+            width: 100%;
+        }
+        #about > div {
+            width: 50%;
+            box-sizing: border-box;
+            padding: 1em;
+        }
+        #about h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.5em;
+            text-decoration: underline;
+        }
+        #page { text-align: right; border-right: 2px solid black; }
+        #contact { text-align: left; }
+
+        @media screen and (max-width: 520px) {
+            #code h3 { font-size: 1.2em; }
+            h2 { font-size: 1.5em; }
+            p { font-size: 1em; }
+            #about h3 { font-size: 1.2em; }
+        }
+
+        @media screen and (max-width: 400px) {
+            #code > a { width: 100%; height: 19%; }
+            #about > div { width: 90%; text-align: right !important; border-right: 2px solid black; }
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="page">
+        <canvas id="first"></canvas>
+    </div>
+    <div class="page" style="background: #eee;">
+        <h2 id="codes">មេរៀន</h2>
+        <div id="code">
+            <a style="background: hsl(18, 88%, 80%)" href="html/index.html">
+                <h3>HTML</h3>
+                <p>បង្កើត​គេហទំព័រ</p>
+            </a>
+            <a style="background: hsl(205, 88%, 80%)" href="css/index.html">
+                <h3>CSS</h3>
+                <p>រចនា​គេហទំព័រ</p>
+            </a>
+            <a style="background: hsl(50, 88%, 75%)" href="javascript/index.html">
+                <h3>Javascript</h3>
+                <p>បង្កើត​អន្តរកម្ម​ទៅ​ឲ្យ​គេហទំព័រ</p>
+            </a>
+            <a style="background: hsl(236, 88%, 85%)" href="php/index.html">
+                <h3>PHP</h3>
+                <p>បង្កើត​កម្មវិធី​ទៅ​ឲ្យ​គេហទំព័រ</p>
+            </a>
+        </div>
+    </div>
+    <div class="page">
+        <div id="about">
+            <div id="page">
+                <h3>ទំព័រ</h3>
+                <p>ទំព័រ​ផ្សេងៗ<br>
+                    អំពី Khode Academy<br>
+                    <a href="about/index.html">អំពី</a> |
+                    <a href="about/mission.html">បេសកកម្ម</a> |
+                    <a href="about/donate.html">ឧបត្ថម្ភ</a>
+                </p>
+            </div>
+            <div id="contact">
+                <h3>ទំនាក់ទំនង</h3>
+                <p>អ្នក​អាច​សិក្សា ក៏​ដូចជាទំនាក់ទំនង​មក​កាន់​ពួក​យើង<br>
+                    តាម​រយៈ<br>
+                    <a href="https://www.youtube.com/KhodeAcademy">Youtube</a> |
+                    <a href="https://www.facebook.com/KhodeAcademy">Facebook</a> |
+                    <a href="https://plus.google.com/+KhodeAcademy">Google+</a> |
+                    <a href="https://twitter.com/KhodeAcademy">Twitter</a>
+                </p>
+            </div>
+        </div>
+    </div>
+	<script>
+        HTMLElement.prototype.top = function () {
+            return  this.offsetTop + 
+                    (this.offsetParent && this.offsetParent != document.body ? this.offsetParent.top() : 0);
+        }
+        HTMLElement.prototype.left = function () {
+            return  this.offsetLeft + 
+                    (this.offsetParent && this.offsetParent != document.body ? this.offsetParent.left() : 0);
+        }
+        Number.prototype.inRange = function (start, end) {
+            if (start > end) {
+                var temp = start;
+                start = end;
+                end = temp;
+            }
+            return (this >= start && this <= end);
+        }
+        function getArcCoord(x, y, radius, angle, clockwise=false) {
+			return { 
+				x: x + Math.cos(angle) * radius,
+				y: y + Math.sin(angle) * radius * (clockwise ? -1 : 1)
+			};
+        }
+        function sumInRange(start=0, end=0) {
+            if (start > end) {
+                var temp = start;
+                start = end;
+                end = temp;
+            }
+            if (start == end)    return end;
+            return sumInRange(start+1, end) + start;
+        }
+        function random(start=1, end=0, integer=false) {
+            if (integer)
+                return Math.floor(Math.random()*(end-start) + start);
+            else
+                return Math.random()*(end-start) + start;
+        }
+        function randomThese() {
+            return arguments[random(0, arguments.length, true)];
+        }
+		function Dot(x, y, radius, speed=1, clockwise, color="black", glowColor="lightgreen") {
+			this.originX = x-radius*2;
+            this.originY = y;
+            this.x = 0;
+            this.y = 0;
+			this.radius = radius;
+            this.color = color;
+            this.glowColor = glowColor;
+            this.anglePerc = 0;
+            this.speed = speed;
+            this.clockwise = clockwise;
+            this.connectedDots = [];
+            this.drawnConnectedDots = [];
+            this.still = false;
+        }
+
+        /*** DOT ***/
+        Dot.prototype.setCoord = function (x=null, y=null) {
+            if (x != null)  this.originX += x - this.x;
+            if (y != null)  this.originY += y - this.y;
+        }
+        Dot.prototype.distFrom = function (x, y) {
+            return Math.sqrt(Math.pow(x - this.x, 2) + Math.pow(y - this.y, 2));
+        }
+		Dot.prototype.drawDot = function (glow=false) {
+            
+            //path
+            //ctx.beginPath();
+            //ctx.arc(this.originX, this.originY, this.radius*2, 0, Math.PI*2);
+            //ctx.strokeStyle = "pink";
+            //ctx.stroke();
+            //ctx.closePath();
+            
+            ctx.beginPath();
+            var coord = getArcCoord(this.originX, this.originY, this.radius*2, Math.PI*2*this.anglePerc, this.clockwise);
+            this.x = coord.x;
+            this.y = coord.y;
+            ctx.arc(coord.x, coord.y, this.radius, 0, Math.PI*2);
+			ctx.fillStyle = this.color;
+            ctx.fill();
+            if (glow) {
+                ctx.strokeStyle = this.glowColor;
+                ctx.stroke();
+            }
+            ctx.closePath();
+            
+            //text
+            //ctx.textAlign = "center";
+            //ctx.fillStyle = "red";
+            //ctx.font = "25px Arial";
+            //ctx.fillText(this.connectedDots.length, this.x, this.y);
+            
+            if (!this.still)
+			    this.anglePerc += this.anglePerc == 1 ? -1 : 0.01*this.speed;
+        }
+        Dot.prototype.checkConnection = function (allDots) {
+            for (var i = 0; i < allDots.length; i++) {
+                var dot = allDots[i];
+                if (dot == this) continue;
+                if (this.distFrom(dot.x, dot.y) <= RANGE)  {
+                    if (!this.connectedDots.includes(dot) && 
+                        this.connectedDots.length < MAX_CON &&
+                        dot.connectedDots.length < MAX_CON
+                    ) {
+                        this.connectedDots.push(dot);
+                        dot.connectedDots.push(this);
+                    }
+                    if (this.connectedDots.length >= MAX_CON) 
+                        break;
+                } else if (this.connectedDots.includes(dot)) {
+                    this.connectedDots.splice(this.connectedDots.indexOf(dot), 1);
+                    dot.connectedDots.splice(dot.connectedDots.indexOf(this), 1);
+                }
+            }
+        }
+        Dot.prototype.drawConnection = function () {
+            this.drawnConnectedDots = [];
+            this.connectedDots.forEach((dot, id) => {
+                if (dot.drawnConnectedDots[dot.connectedDots.indexOf(this)])    return;
+                ctx.beginPath();
+                ctx.moveTo(this.x, this.y);
+                ctx.lineTo(dot.x, dot.y);
+                ctx.strokeStyle = this.color;
+                ctx.stroke();
+                this.drawnConnectedDots[id] = true;
+            });
+        }
+        Dot.prototype.removeAllConnection = function () {
+            this.connectedDots.forEach(dot => {
+                var id = dot.connectedDots.indexOf(this);
+                dot.drawnConnectedDots.splice(id, 1);
+                dot.connectedDots.splice(id, 1);
+            });
+            var num = 0;
+            while (num = this.connectedDots.length)
+                this.connectedDots.pop();
+        }
+
+        /*** SMOOTH SCROLL ***/
+        var smoothScroll = {
+            status: false,
+            step: 25,
+            toCoord: function (x, y) {
+                this.status = true;
+                var dist = {
+                    x: Math.abs(x - pageXOffset),
+                    y: Math.abs(y - pageYOffset)
+                };
+                var dir = {
+                    x: (pageXOffset < x ? 1 : -1),
+                    y: (pageYOffset < y ? 1 : -1)
+                };
+                var time = Math.floor(dist[dist.x > dist.y ? "x" : "y"]/this.step);
+                var step = {
+                    x: (dist.x > dist.y ? this.step : (Math.floor(dist.x/time) || time)),
+                    y: (dist.y > dist.x ? this.step : (Math.floor(dist.y/time) || time))
+                };
+                var leap = {
+                    x: (dist.x%time || time),
+                    y: (dist.y%time || time)
+                }
+                scrollBy(leap.x*dir.x, leap.y*dir.y);
+                dist.x -= leap.x;
+                dist.y -= leap.y;
+                var self = this;
+                requestAnimationFrame(function s() {
+                    if (dist.x <= 0 && dist.y <= 0) return (self.status = false);
+                    scrollBy(step.x*dir.x, step.y*dir.y);
+                    dist.x -= step.x;
+                    dist.y -= step.y;
+                    requestAnimationFrame(s);
+                });
+            },
+            toElement: function (element) {
+                this.toCoord(element.left(), element.top());
+            },
+            toId: function (id) {
+                var element = document.getElementById(id);
+                if (element)
+                    this.toElement(element);
+            }
+        };
+
+        function load() {
+            canvas.width = innerWidth;
+            canvas.height = innerHeight;
+            width = canvas.width,
+            height = canvas.height,
+            shorter = width > height ? height : width,
+            centerX = width/2,
+            centerY = height/2;
+            logoWi = width > height ? width/4.6 : width/2;
+            logoHi = logoWi/logoOriWi*logoOriHi; 
+            fontSize = 16;
+        }
+        var logo = [    
+            new Path2D("M20.08,39.23v6l-.28.21a11.53,11.53,0,0,1-14.44-.77v2.95H1.5v-46L5.35,5.48V27.53a11.54,11.54,0,0,1,11.73-2.22l-1.35,3.6a7.69,7.69,0,1,0,4.34,10.31Z"),
+            new Path2D("M41.41,29.09a12.24,12.24,0,0,0-1.92,4.37,7.69,7.69,0,0,0-14.91,2.67h0V47.66H20.72V1.49l3.85,3.85V27.54a11.52,11.52,0,0,1,16.27.85q.3.33.58.69Z"),
+            new Path2D("M43.8,45.71v2H40V40.4A12.35,12.35,0,0,0,43.8,45.71Z"),
+            new Path2D("M51.5,43.82a7.69,7.69,0,1,1,7.13-10.58A12.31,12.31,0,0,1,60.56,29a11.54,11.54,0,1,0,0,14.28A12.25,12.25,0,0,1,58.64,39,7.7,7.7,0,0,1,51.5,43.82Z"),
+            new Path2D("M70.27,28.44A7.7,7.7,0,0,1,77.78,33a12.39,12.39,0,0,1,4.49-6.88V5.33L78.41,1.48v26a11.54,11.54,0,1,0,.91,16.29l.38-.45a12.45,12.45,0,0,1-1.92-4.18,7.69,7.69,0,1,1-7.52-10.75Z"),
+            new Path2D("M90,47.66a11.56,11.56,0,0,1-11.27-14,11.4,11.4,0,0,1,8.78-8.78,11.56,11.56,0,0,1,14,11.28V38h-19A7.7,7.7,0,0,0,92.7,43.32l1.37,3.59A11.5,11.5,0,0,1,90,47.66ZM82.52,34.2h14.9a7.69,7.69,0,0,0-14.9,0Z")
+        ],
+            logoOriWi = 103,
+            logoOriHi = 49,
+            logoWi, logoHi;
+        var canvas = document.getElementsByTagName("canvas")[0],
+            ctx = canvas.getContext("2d"),
+            width, height, shorter, centerX, centerY, fontSize;
+        load();
+        const   MAX_CON = 4,
+                RANGE = 100,
+                MIN_SPEED = 0.01,
+                MAX_SPEED = 0.1,
+                DOTS_NUM = Math.round(shorter/60),
+                MAX_RADIUS = 7,
+                MIN_RADIUS = 3,
+                GLOW_COLOR = "#05F8F9";
+        
+        var dots = [];
+        var logoTxt = "សិក្សា​កូដ​កុំព្យូទ័រ ជា​ភាសាខ្មែរ ឥត​គិត​ថ្លៃ តាម​អ៊ីនធើណិត",
+            logoTxt1 = "សិក្សា​កូដ​កុំព្យូទ័រ ជា​ភាសាខ្មែរ",
+            logoTxt2 = "ឥត​គិត​ថ្លៃ តាម​អ៊ីនធើណិត";
+
+        window.addEventListener("resize", () => {
+            dots.forEach(dot => {
+                dot.setCoord(dot.x/width*innerWidth, dot.y/height*innerHeight);
+            });
+            load();
+        });
+        
+        /* GENERATE DOTS */
+        var space = MAX_RADIUS*3,
+            rangeMax = shorter/2.5,
+            one = rangeMax/sumInRange(1, DOTS_NUM),
+            fixBlock = rangeMax/DOTS_NUM;
+        for (var i = DOTS_NUM; i >= 1; i--) {
+            var radius = random(MIN_RADIUS, MAX_RADIUS),
+                range = random(0, one*i) + (i != DOTS_NUM ? one*sumInRange(DOTS_NUM, i + 1) : 0);
+            dots.push(new Dot(
+                space + random(0, fixBlock*(DOTS_NUM - i + 1)), 
+                height - rangeMax + range - space, 
+                radius, 
+                random(MIN_SPEED, MAX_SPEED), 
+                random(0, 2, true),
+            ));
+        }
+        
+        for (var i = 1; i <= DOTS_NUM; i++) {
+            var radius = random(MIN_RADIUS, MAX_RADIUS),
+                range = random(0, one*i) + one*sumInRange(0, i - 1);
+            dots.push(new Dot(
+                width - random(0, fixBlock*(DOTS_NUM - i)) - space,
+                range + space, 
+                radius, 
+                random(MIN_SPEED, MAX_SPEED), 
+                random(0, 2, true),
+            ));
+        }
+
+        /* DRAW DOTS */
+        var hoveredDot = null,
+            t = -1,
+            bgColor = "white",
+            dotColor = "black",
+            allConnected = false;
+        requestAnimationFrame(function animate(timestamp) {
+            // deal with color
+            if (allConnected) {
+                if (t <= 8) {
+                    bgColor = randomThese("black", "black", "black", "white");
+                    t++;
+                } else {
+                    bgColor = "black";
+                    dotColor = GLOW_COLOR;
+                }
+            } else {
+                if (t >= 0) {
+                    bgColor = randomThese("black", "black", "white");
+                    t--;
+                } else {
+                    bgColor = "white";
+                    dotColor = "black";
+                }
+            }
+
+            // draw background color
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, width, height);
+            // draw logo
+            ctx.fillStyle = dotColor;
+            ctx.save();
+            ctx.translate(centerX - logoWi/2, centerY - logoHi*3/4);
+            ctx.scale(logoWi/logoOriWi, logoWi/logoOriWi);
+            //ctx.translate();
+            logo.forEach(l => {
+                ctx.fill(l);
+            });
+            ctx.restore();
+            // draw logo's text
+            ctx.textAlign = "center";
+            ctx.font = fontSize + "px hanuman";
+            if (ctx.measureText(logoTxt).width < width/3*2)
+                ctx.fillText(logoTxt, centerX, centerY + logoHi/4 + fontSize);
+            else {
+                ctx.fillText(logoTxt1, centerX, centerY + logoHi/4 + fontSize);
+                ctx.fillText(logoTxt2, centerX, centerY + logoHi/4 + fontSize*2.5);
+            }
+
+            // draw dots and connection
+			dots.forEach(dot => {
+                dot.color = dotColor;
+                dot.drawDot(hoveredDot == dot ? true : false);
+                dot.checkConnection(dots);
+                dot.drawConnection();
+            });
+
+            // check if all connected
+            var connected = [];
+            (function checkAllConnected(dot) {
+                if (connected.includes(dot))    return;
+                connected.push(dot);
+                dot.connectedDots.forEach(d => {
+                    checkAllConnected(d);
+                });
+            }(dots[0]));
+
+            // set if all connected
+            allConnected = (connected.length == dots.length);
+        
+			requestAnimationFrame(animate);
+        });
+        
+        /* MOUSE EVENT */
+        var dotClicked = false, 
+            dist = {};
+        canvas.onmousedown = function (e) {
+            if (hoveredDot != null) {
+                hoveredDot.still = true;
+                dotClicked = true;
+                dist.x = e.offsetX - hoveredDot.x;
+                dist.y = e.offsetY - hoveredDot.y;
+            }
+        }
+        canvas.onmousemove = function (e) {
+            // drag dot
+            if (dotClicked) {
+                hoveredDot.setCoord(e.offsetX - dist.x, e.offsetY - dist.y);
+
+            // hover dot
+            } else {
+                for (var i = 0; i < dots.length; i++) {
+                    if (dots[i].distFrom(e.offsetX, e.offsetY) <= dots[i].radius) {
+                        hoveredDot = dots[i];
+                        break;
+                    }
+                }
+                if (i == dots.length)   hoveredDot = null;
+            }
+        }
+        canvas.onmouseup = function (e) {
+            // release dot
+            if (hoveredDot != null) {
+                hoveredDot.still = false;
+                dotClicked = false;
+            
+            // create dot
+            } else {
+                dots.push(new Dot(
+                    e.offsetX,
+                    e.offsetY,
+                    random(MIN_RADIUS, MAX_RADIUS), 
+                    random(MIN_SPEED, MAX_SPEED), 
+                    random(0, 2, true),
+                    dotColor, 
+                    "red"
+                ));
+            }
+        }
+        canvas.oncontextmenu = function (e) {
+            if (hoveredDot != null) {
+                dots.splice(dots.indexOf(hoveredDot), 1);
+                hoveredDot.removeAllConnection();
+                hoveredDot = null;
+            }
+        }
+
+        /*** PAGE ***/
+        function getCurrentPage(float=false) {
+            if (float)  return pageYOffset/innerHeight + 1;
+            else        return Math.floor(pageYOffset/innerHeight) + 1;
+        }
+        var pages = document.getElementsByClassName("page");
+        for (var i = 0, pageNum = 0; i < pages.length; i++)
+            pages[i].id = ++pageNum;
+        
+        window.onwheel = function (e) {
+            if (smoothScroll.status) return false;
+
+            // scroll up
+            if (e.deltaY < 0) {
+                smoothScroll.toId(getCurrentPage() + (getCurrentPage(true)%1 == 0 ? -1 : 0));
+
+            // scroll down
+            } else if (e.deltaY > 0)
+                smoothScroll.toId(getCurrentPage()+1);
+
+            return false;
+        }
+        window.onclick = function (e) {
+            /*
+            // click on hashtag, smooth scroll
+            if (
+                e.target.tagName.toLowerCase() == "a" &&
+                e.target.pathname == location.pathname &&
+                e.target.hash != "" &&
+                e.target.hash != "#"
+            ) {
+                smoothScroll.toId(e.target.hash.slice(1));
+                return false;
+            }*/
+        }
+	</script>
+
+<script type="text/javascript" src="../cdn.ywxi.net/js/1.js" async></script>
+</body>
+
+<!-- Mirrored from www.khode.academy/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2018 09:18:50 GMT -->
+</htmL>

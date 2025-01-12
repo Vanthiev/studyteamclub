@@ -1,0 +1,19 @@
+{
+	"name": "Khode Academy",
+	"short_name": "Khode",
+	"theme_color": "#737373",
+	"display": "standalone",
+	"lang": "km-KH",
+	"icons": [
+		{
+			"src": "\/favicon-192x192.png",
+			"sizes": "192x192",
+			"type": "image\/png"
+		},
+		{
+			"src": "\/favicon-512x512.png",
+			"sizes": "512x512",
+			"type": "image\/png"
+		}
+	]
+}
